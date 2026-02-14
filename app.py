@@ -202,6 +202,7 @@ def parse_tmdb_search_to_cards(data, keyword: str, limit: int = 24):
 # SIDEBAR (clean)
 # =============================
 with st.sidebar:
+    st.markdown("## POPCORN EAZY")
     st.markdown("## 🎬 Menu")
     if st.button("🏠 Home"):
         goto_home()
